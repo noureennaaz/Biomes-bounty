@@ -55,3 +55,17 @@
   font-weight: 600;
 
 }
+.literata-plain{
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 1px 2px #4a45453d;
+  /* background-image: linear-gradient(bg-gradient-to-r from-lime-600 to-green-900); */
+      background-clip:text;
+      -webkit-background-clip:text;
+      color:transparent;
+}
+/* .bg-place{
+  background-image: url(https://i.pinimg.com/originals/38/57/9c/38579c77fdc54a062d8278718ae65bd9.gif);
+} */

@@ -7,7 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   
   return (
-    <div className="App relative">
+    <div className="App relative overflow-x-hidden">
       
       <Routes>
         <Route path="/"  element={<HomePage/>}/> 
