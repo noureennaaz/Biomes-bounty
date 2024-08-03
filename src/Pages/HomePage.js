@@ -85,7 +85,12 @@ const HomePage = () => {
               Biomes!
             </p>{" "}
           </div>
+          
         </section>
+      </section>
+      
+      <section>
+        
       </section>
     </div>
   );
