@@ -53,6 +53,12 @@
   font-family: "Literata", serif;
   font-optical-sizing: auto;
   font-weight: 600;
+}
+.literata-light{
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-weight: 300;
 
 }
 .literata-plain{
@@ -66,6 +72,63 @@
       -webkit-background-clip:text;
       color:transparent;
 }
+.literata-plain-head{
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-weight: 700;
+
+}
+
 /* .bg-place{
   background-image: url(https://i.pinimg.com/originals/38/57/9c/38579c77fdc54a062d8278718ae65bd9.gif);
 } */
+.lobster-two-regular {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-two-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lobster-two-regular-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lobster-two-bold-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.bg-green-text{
+
+      background-image: linear-gradient(rgb(43, 147, 43),rgb(26, 99, 26) , rgb(3, 156, 3));
+      
+}
+.bg-green-text:hover{
+  background-image: linear-gradient( rgb(3, 156, 3),rgb(26, 99, 26) , rgb(7, 113, 7));
+  box-shadow: #282c345d 2px 2px 6px;
+  scale: 1.01;
+  transition:  ease-in-out 300ms;
+}
+
+
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-300{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
