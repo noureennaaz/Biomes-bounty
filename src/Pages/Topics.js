@@ -11,11 +11,13 @@ const Topics = () => {
     AOS.init();
   }, []);
 
+  let {topic} = useParams();
   const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
-  let {topic} = useParams();
+  }, [topic]);
+
+ 
   console.log(topic);
   const info = data.find(v=> v.id==topic);
   if(!info){
