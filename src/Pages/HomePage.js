@@ -9,9 +9,6 @@ import { FaChevronDown } from "react-icons/fa6";
 import AOS from "aos";
 import { NavLink } from "react-router-dom";
 import "aos/dist/aos.css";
-import tropicLeaves from "../assets/tropicLeaves.jpg";
-import bgImg from "../assets/bg-2.jpg";
-import bgImg2 from "../assets/bg3.png";
 
 const HomePage = () => {
   // AOS.init();
@@ -59,7 +56,7 @@ const HomePage = () => {
             </h2>
             <div className="h-[120px] w-[120px] overflow-visible z-0">
               <img
-                src={bgImg}
+                src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727196895/BiomesBounty/homepage/hgnduyekiho4fpxqpsuo.jpg'
                 alt=""
                 className="z-0 h-full w-full overflow-visible object-cover"
               />
@@ -69,12 +66,12 @@ const HomePage = () => {
           <Biomes/>
 
           <div className="absolute bottom-1/2 blur-[1px] -right-10 h-60 w-60 -z-[999] pointer-events-none grayscale">
-            <img src={bgImg2} alt="" />
+            <img src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727196896/BiomesBounty/homepage/stem.png' alt="" />
           </div>
         </section>
         <section className="relative h-[600px]" id="content">
           <img
-            src={tropicLeaves}
+            src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727196898/BiomesBounty/homepage/Leavesbg.jpg'
             className="h-full w-full object-cover"
             alt=""
           />

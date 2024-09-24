@@ -1,8 +1,4 @@
-import tropic from "../assets/tropic.png";
-import decideous from "../assets/decideous.png";
-import tundra from "../assets/tundra.png";
-import evergreen from "../assets/green.png";
-import desert from "../assets/tropic-desert.png";
+
 
 import { NavLink } from "react-router-dom";
 const Biomes= ()=>{
@@ -11,7 +7,7 @@ const Biomes= ()=>{
             <div className="group rounded-full lg:basis-[22%] h-[300px] w-[300px] hover:scale-[1.02] transition-all ease-in  duration-200">
               <NavLink to="/topics/tropic" >
                 <img
-                  src={tropic}
+                  src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727196897/BiomesBounty/homepage/Tropical.png'
                   alt=""
                   data-aos="fade-up"
                   className="group-hover:drop-shadow-xl duration-200 transition-all ease-in"
@@ -24,7 +20,7 @@ const Biomes= ()=>{
             <div className="group rounded-full lg:basis-[22%] h-[300px] w-[300px] hover:scale-[1.02] transition-all ease-in  duration-200">
               <NavLink to="/topics/decideous">
                 <img
-                  src={decideous}
+                  src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727196897/BiomesBounty/homepage/decideous.png'
                   alt=""
                   data-aos="fade-up"
                   className="group-hover:drop-shadow-xl duration-200 transition-all ease-in"
@@ -37,7 +33,7 @@ const Biomes= ()=>{
             <div className="group rounded-full lg:basis-[22%] h-[300px] w-[300px] hover:scale-[1.02] transition-all ease-in  duration-200">
               <NavLink to="/topics/tundra">
                 <img
-                  src={tundra}
+                  src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727196898/BiomesBounty/homepage/tundra.png'
                   alt=""
                   data-aos="fade-up"
                   className="group-hover:drop-shadow-xl duration-200 transition-all ease-in"
@@ -51,7 +47,7 @@ const Biomes= ()=>{
             <div className="group rounded-full lg:basis-[22%] h-[300px] w-[300px] hover:scale-[1.02] transition-all ease-in  duration-200">
               <NavLink to="/topics/evergreen">
                 <img
-                  src={evergreen}
+                  src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727196897/BiomesBounty/homepage/evergreen.png'
                   alt=""
                   data-aos="fade-up"
                   className="group-hover:drop-shadow-xl duration-200 transition-all ease-in"
@@ -65,7 +61,7 @@ const Biomes= ()=>{
             <div className="group rounded-full lg:basis-[22%] h-[300px] w-[300px] hover:scale-[1.02] transition-all ease-in  duration-200">
               <NavLink to="/topics/desert">
                 <img
-                  src={desert}
+                  src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727196898/BiomesBounty/homepage/desert.png'
                   alt=""
                   data-aos="fade-up"
                   className="group-hover:drop-shadow-xl duration-200 transition-all ease-in"
